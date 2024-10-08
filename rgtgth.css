@@ -1,0 +1,36 @@
+.our_photo {
+    text-align: center;
+    color: black;
+    padding: 15px;
+  }
+  
+  .conteiner_galary .img-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .conteiner_galary .img-conteiner .img {
+    width: 350px;
+    height: 250px;
+    border: 5px solid grey;
+    border-radius: 7px;
+    overflow: hidden;
+    
+  }
+  
+  .conteiner_galary .img-conteiner .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    
+  }
+  
+  .conteiner_galary .img-conteiner .img:hover img {
+    transform: scale(1.1);
+    /* cursor: pointer; */
+  } 
+   
